@@ -14,7 +14,7 @@ window.addEventListener('load', function() {
 
             data.sort(function(a, b) {
                return a.hoursInSpace < b.hoursInSpace ? 1 : -1;
-            })
+            
 
             for (let i = 0; i < data.length; i++) { 
                 let astronaut = data[i];
@@ -33,6 +33,7 @@ window.addEventListener('load', function() {
 </div>
         `;
             }
+          }) 
         })
     })
 });
